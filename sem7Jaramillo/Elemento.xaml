@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="sem7Jaramillo.Elemento">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Actualizar o Eliminar usuarios"/>
+            <Entry x:Name="txtNombre" Placeholder="Ingrese el nombre"/>
+            <Entry x:Name="txtUsuario" Placeholder="Ingrese el usuario"/>
+            <Entry x:Name="txtContrasena" Placeholder="Ingrese la contrasena"/>
+            <Button x:Name="btnActualizar" Text="Actualizar" Clicked="btnActualizar_Clicked"/>
+            <Button x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
